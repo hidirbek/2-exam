@@ -704,8 +704,28 @@ td,th{
   padding-top: 32px;
 }
 
+// Видео о нашей работе
 
-
+.about-us-wrapper {
+  margin-top: 60px;
+  padding: 0 7%;
+}
+.about-us-title {
+  font-family: $exo600-font;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+.about-us-para {
+  width: 69%;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 32px 0 40px 0;
+}
+.about-us-video {
+  width: 100%;
+  object-fit: cover;
+}
 
 
 @media only screen and (max-width: 1300px){
@@ -857,6 +877,7 @@ td,th{
     width: 100%;
   }
 
+  // Видео о нашей работе
 }
 
 
@@ -998,6 +1019,16 @@ td,th{
   .contacts-title{
     font-size: 44px;
   }
+
+
+  // Видео о нашей работе
+
+  .about-us-title{
+    font-size: 44px;
+  }
+  .about-us-para{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 625px){
@@ -1030,6 +1061,9 @@ td,th{
 
 
   // Наши контакты
+
+
+  // Видео о нашей работе
 
 }
 
@@ -1167,6 +1201,7 @@ td,th{
     grid-template-columns: auto;
   }
   .employees-card-items{
+    align-items: center;
     width: 100%;
     flex-direction: row;
     padding: 5% 5% 5% 10%;
@@ -1201,6 +1236,15 @@ td,th{
   }
   .table-data{
     width: 95%;
+  }
+
+
+  // Видео о нашей работе
+  .about-us-title{
+    font-size: 28px;
+  }
+  .about-us-para{
+    font-size: 15px;
   }
 
 }
